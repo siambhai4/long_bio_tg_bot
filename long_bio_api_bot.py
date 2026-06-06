@@ -1395,7 +1395,7 @@ def send_like(message):
             "⏳ <b>Sending Likes please wait...</b>\n\nঅপেক্ষা করতে বলেছি দেখে কি রাগ করলা 😅"
         )
 
-        url = f"https://free-like-api-ilow.onrender.com/like?uid={uid}&server_name=BD&key=STAR"
+        url = f"https://30like-api.vercel.app/like?uid={uid}"
 
         try:
             response = requests.get(url, timeout=15)
