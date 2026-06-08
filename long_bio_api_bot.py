@@ -1395,7 +1395,7 @@ def send_like(message):
             "⏳ <b>Sending Likes please wait...</b>\n\nঅপেক্ষা করতে বলেছি দেখে কি রাগ করলা 😅"
         )
 
-        url = f"https://30like-api.vercel.app/like?uid={uid}"
+        url = f"https://like-api-with-dashbord.onrender.com/like?uid={uid}&server_name=bd"
 
         try:
             response = requests.get(url, timeout=15)
