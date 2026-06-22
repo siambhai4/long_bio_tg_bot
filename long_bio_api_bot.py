@@ -4,7 +4,7 @@ import sqlite3
 import time
 import re
 from flask import Flask
-BOT_TOKEN = "8646657182:AAGDAIcJVR_5tnPVNHmh1PJ3V-ifmAStM80"
+BOT_TOKEN = "8397511197:AAEKt4sCWT9NT4U6CZGaVhrde1ScKPKQg58"
 bot = telebot.TeleBot(BOT_TOKEN)
 app = Flask(__name__)
 
