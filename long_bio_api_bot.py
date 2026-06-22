@@ -1759,7 +1759,7 @@ def bot_off():
         bot.stop_polling()
         bot_running = False
 
-        return "🔴 Bot Stopped"
+        return "🔴 Bot_Stopped"
 
     except Exception as e:
         return f"Error: {e}"
