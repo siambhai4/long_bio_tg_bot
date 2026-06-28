@@ -1395,7 +1395,7 @@ def send_like(message):
             "⏳ <b>Sending Likes please wait...</b>\n\nঅপেক্ষা করতে বলেছি দেখে কি রাগ করলা 😅"
         )
 
-        url = f"https://mypremiumlikeblqbla.vercel.app/like?uid={uid}"
+        url = f"https://shappno-api-like-ob54-ha-ha-ha.vercel.app/like?uid={uid}&server_name=bd"
 
         try:
             response = requests.get(url, timeout=15)
